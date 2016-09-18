@@ -1,0 +1,22 @@
+{
+  "name": "otazkyreferendum",
+  "version": "1.0.0",
+  "description": "Otázky referenda o poloze nádraží 7. a 8. října v budovách krajských voleb",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelhamrik/otazkyreferendum.git"
+  },
+  "author": "Pavel Hamrik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelhamrik/otazkyreferendum/issues"
+  },
+  "homepage": "https://github.com/pavelhamrik/otazkyreferendum#readme"
+}
