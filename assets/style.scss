@@ -1,0 +1,30 @@
+
+$blue: #00AEEF;
+$blue-transparent: rgba($blue, 0.9);
+
+$green: #51F16F;
+$grey: #eee;
+$white: #fff;
+$black: #000;
+
+$border-color: rgba(255,255,255,0.3);
+
+
+body {background-color: $blue;}
+
+strong {font-weight: 600;}
+
+h1 {color: $black; font-weight: 700;}
+
+h2, p.lead {font-size: 1.5rem; line-height: 2rem; color: $black;}
+h2 {margin: 4rem 0 1.5rem; color: $white; font-weight: 700;}
+
+.container {max-width: 48rem;}
+section {padding: 6rem 0;}
+
+#content {background: $blue;}
+
+footer {padding: 3rem 0 6rem; background: $white;}
+#nadrvcentru {background: url(nadr_v_centru.png) no-repeat center; background-size: contain; min-height: 20rem; display: block; position: relative; color: $blue;}
+#nadrvcentru:hover, #nadrvcentru:focus {color: darken($blue, 10);}
+#nadrvcentru span {position: absolute; bottom: 0; left: 0; right: 0; text-align: center;}
