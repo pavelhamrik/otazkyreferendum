@@ -10,21 +10,27 @@ $black: #000;
 $border-color: rgba(255,255,255,0.3);
 
 
-body {background-color: $blue;}
+body {background-color: $grey;}
 
 strong {font-weight: 600;}
 
-h1 {color: $black; font-weight: 700;}
+h1, h2 {color: $white; font-weight: 600; font-size: 2rem; line-height: 135%;}
+h1 {text-shadow: 0 0.2rem 2rem $black, 0 0.2rem 2rem $black; margin-top: 4rem;}
+h1 .lead {font-size: inherit; font-weight: inherit; text-transform: uppercase; display: block;}
+h2, p.lead {font-size: 1.35rem; line-height: 135%; color: $black;}
+h2 {margin: 3rem 0 1.5rem; color: $blue; font-size: 1.5rem; font-weight: 700;}
+h2.tight {margin-top: 0;}
 
-h2, p.lead {font-size: 1.5rem; line-height: 2rem; color: $black;}
-h2 {margin: 4rem 0 1.5rem; color: $white; font-weight: 700;}
+.container {max-width: 48rem; position: relative;}
+section {padding: 5rem 0;}
 
-.container {max-width: 48rem;}
-section {padding: 6rem 0;}
+#cover {background: url(nadr_v_centru-vizualizace.jpg) no-repeat center; background-size: cover;}
+#cover .container {min-height: 20rem;}
+#cover h1 {position: absolute; bottom: 0; left: 0; right: 0; padding: 0 15px 0;}
 
-#content {background: $blue;}
+#content {background: $grey;}
 
 footer {padding: 3rem 0 6rem; background: $white;}
-#nadrvcentru {background: url(nadr_v_centru.png) no-repeat center; background-size: contain; min-height: 20rem; display: block; position: relative; color: $blue;}
+#nadrvcentru {background: url(nadr_v_centru-logo.png) no-repeat center; background-size: contain; min-height: 20rem; display: block; position: relative; color: $blue;}
 #nadrvcentru:hover, #nadrvcentru:focus {color: darken($blue, 10);}
 #nadrvcentru span {position: absolute; bottom: 0; left: 0; right: 0; text-align: center;}
