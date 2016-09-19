@@ -6,7 +6,7 @@ $grey: #eee;
 $white: #fff;
 $black: #000;
 
-body {background-color: $grey;}
+body {background-color: $white;}
 
 strong {font-weight: 600;}
 
@@ -17,6 +17,9 @@ h1 .subtitle {font-size: 3rem; text-transform: none; margin-bottom: 3rem; line-h
 h2, p.lead {font-size: 1.35rem; line-height: 135%; color: $black;}
 h2 {margin: 3rem 0 1.5rem; color: $blue; font-size: 1.5rem; font-weight: 700;}
 h2.tight {margin-top: 0;}
+
+a {color: $blue; text-decoration: underline;}
+a:hover, a:focus {color: darken($blue, 10);}
 
 .container {max-width: 48rem; position: relative;}
 section {padding: 5rem 0;}
@@ -33,5 +36,5 @@ footer {padding: 3rem 0 6rem; background: $white;}
 #nadrvcentru span {position: absolute; bottom: 0; left: 0; right: 0; text-align: center;}
 
 ol {padding-left: 2rem;}
-ol li.lead {font-size: 1.5rem; color: $blue; padding-left: 0.5rem;}
-ol li.lead p.lead {font-size: 1.35rem; color: $black; padding-left: 2rem;}
+ol li.lead {font-size: 1.5rem; color: $blue; padding-left: 0.5rem; font-weight: 700;}
+ol li.lead p.lead {font-size: 1.35rem; color: $black; padding-left: 2rem; font-weight: 400;}
