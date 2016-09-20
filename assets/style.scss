@@ -10,10 +10,10 @@ body {background-color: $white;}
 
 strong {font-weight: 700;}
 
-h1, h2 {color: $white; font-weight: 600; font-size: 2rem; line-height: 135%;}
-h1 {text-shadow: 0 0.2rem 2rem $black, 0 0.2rem 2rem $black; margin-top: 4rem; text-align: center; line-height: 135%;}
-h1 .lead {font-weight: inherit; text-transform: uppercase; display: block; font-size: 4rem; line-height: 120%;}
-h1 .subtitle {font-size: 3rem; text-transform: none; margin-bottom: 3rem; line-height: 120%;}
+h1, h2 {color: $blue; font-weight: 700; font-size: 2rem; line-height: 135%;}
+h1 {text-align: center; line-height: 135%; color: $black; margin: 0;}
+h1 .lead {font-weight: inherit; text-transform: uppercase; display: block; font-size: 4rem; line-height: 120%; color: $blue;}
+h1 .subtitle {font-size: 3rem; text-transform: none; margin-bottom: 2.5rem; line-height: 120%; color: $blue;}
 h2, p.lead {font-size: 1.35rem; line-height: 135%; color: $black;}
 h2 {margin: 3rem 0 1.5rem; color: $blue; font-size: 1.5rem; font-weight: 700;}
 h2.tight {margin-top: 0;}
@@ -24,17 +24,15 @@ a:hover, a:focus {color: darken($blue, 10);}
 .container {max-width: 48rem; position: relative;}
 section {padding: 5rem 0;}
 
-#cover {background: #8c8b82 url(nadr_v_centru-vizualizace.jpg) no-repeat center; background-size: cover;}
-#cover .container {min-height: 20rem;}
-#cover h1 {position: absolute; bottom: 0; left: 0; right: 0; padding: 0 15px 0;}
+#cover {background: $grey;}
+#cover h1 {padding: 0 15px 0;}
 
-// #content {background: $grey;}
-
-footer {padding: 3rem 0 6rem; background: $white;}
-#nadrvcentru {background: url(nadr_v_centru-logo.png) no-repeat center; background-size: contain; min-height: 20rem; display: block; position: relative; color: $blue;}
-#nadrvcentru:hover, #nadrvcentru:focus {color: darken($blue, 10);}
-#nadrvcentru span {position: absolute; bottom: 0; left: 0; right: 0; text-align: center;}
+#footnotes {background: $grey;}
 
 ol {padding-left: 2rem;}
 ol li.lead {font-size: 1.5rem; color: $blue; padding-left: 0.5rem; font-weight: 700;}
 ol li.lead p.lead {font-size: 1.35rem; color: $black; padding-left: 2rem; font-weight: 400;}
+
+.fn {margin-left: 2.35rem;}
+dt {font-weight: 600; display: inline-block; float: left; width: 0.5rem; margin-right: 0.35rem;}
+dd {display: inline;}
